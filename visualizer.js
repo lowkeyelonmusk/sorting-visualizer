@@ -69,6 +69,7 @@ sortBtn.addEventListener("click", () => {
     }
 
     if (swapped === 0) break
+    
   }
 
   const sortedDiv = generateContainer();
@@ -76,5 +77,4 @@ sortBtn.addEventListener("click", () => {
   sortedDiv.style.border = "4px solid green"
   arrayContainer.appendChild(sortedDiv)
   sortBtn.style.display = "none"
-  
 })
